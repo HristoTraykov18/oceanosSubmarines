@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="airlock">airlock</string>
+    <string name="airlock_desc">Gives access to more divers, which can be placed on chests to collect treasures in the end of the game.\n1, 2 or 3 divers, depending on the level.</string>
+    <string name="app_name">Oceanos Submarines</string>
+    <string name="aquarium">aquarium</string>
+    <string name="aquarium_desc">Allows keeping more distinct animals, resulting in more potential points in the end of each round.\n6, 10 or 16 points, depending on the level.</string>
+    <string name="btn_new_game">NEW GAME</string>
+    <string name="btn_select_subm">Select submarines</string>
+    <string name="cockpit">cockpit</string>
+    <string name="cockpit_desc">Increases the cards that the player draws.\n2, 3 or 4 cards, depending on the level.</string>
+    <string name="edit">Edit</string>
+    <string name="grabber">GRABBER</string>
+    <string name="jaws">JAWS</string>
+    <string name="lang_textview">СМЯНА НА ЕЗИК</string>
+    <string name="motor">motor</string>
+    <string name="motor_desc">Gives access to more fuel, allowing player to play more cards. Fuel restores in the beginning of each round.\n1, 2 or 3 fuel tokens, depending on the level.</string>
+    <string name="mylady">MYLADY</string>
+    <string name="nanshe">NANSHE</string>
+    <string name="naughty">NAUGHTY</string>
+    <string name="new_game_popup_text">Please select at least one submarine!</string>
+    <string name="propeller">propeller</string>
+    <string name="propeller_desc">In the end of each round the player adds the points shown on the propeller to their score.\n0, 2 or 5 points, depending on the level.</string>
+    <string name="subm_edit_textview">EDIT SUBMARINES</string>
+    <string name="subm_select_textview">SUBMARINES SELECTION</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources translatable="false">
+    <dimen name="default_text_size">22sp</dimen>
+    <dimen name="landscape_cardview_height">200dp</dimen>
+    <dimen name="large_text_size">28sp</dimen>
+    <dimen name="portrait_cardview_height">220dp</dimen>
+    <dimen name="small_text_size">16sp</dimen>
+</resources>

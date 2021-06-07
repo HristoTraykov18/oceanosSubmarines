@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="airlock">въздушен шлюз</string>
+    <string name="airlock_desc">Дава достъп повече до водолази, които могат да бъдат поставени на сандъци, за събиране на съкровища в края на играта.\n1, 2 или 3 водолаза спрямо нивото.</string>
+    <string name="app_name">Oceanos Submarines</string>
+    <string name="aquarium">аквариум</string>
+    <string name="aquarium_desc">Позволява съхранението на повече различни животни, което дава възможност за повече точки в края на всеки рунд.\n6, 10 или 16 точки спрямо нивото.</string>
+    <string name="btn_new_game">НОВА ИГРА</string>
+    <string name="btn_select_subm">Изберете подводници</string>
+    <string name="cockpit">пилотска кабина</string>
+    <string name="cockpit_desc">Увеличава броя карти, които играчът тегли.\n2, 3 или 4 карти спрямо нивото.</string>
+    <string name="edit">Промяна на </string>
+    <string name="grabber">ГРАБИТЕЛ</string>
+    <string name="jaws">ЧЕЛЮСТИ</string>
+    <string name="lang_textview">CHANGE LANGUAGE</string>
+    <string name="motor">мотор</string>
+    <string name="motor_desc">Дава достъп до повече гориво, позволявайки на играча да играе повече карти. Горивото се възстановява в началото на всеки рунд.\n1, 2 или 3 жетона гориво спрямо нивото.</string>
+    <string name="mylady">МИЛЕЙДИ</string>
+    <string name="nanshe">НАНШЕ</string>
+    <string name="naughty">НЕПОСЛУШНА</string>
+    <string name="new_game_popup_text">Моля изберете поне една подводница!</string>
+    <string name="propeller">перка</string>
+    <string name="propeller_desc">В края на всеки рунд играчът добавя точките показани на перката към резултата си.\n0, 2 или 5 точки спрямо нивото.</string>
+    <string name="subm_edit_textview">ПРОМЯНА НА ПОДВОДНИЦИ</string>
+    <string name="subm_select_textview">ИЗБИРАНЕ НА ПОДВОДНИЦИ</string>
+</resources>

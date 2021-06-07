@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/middle_sea_background"
+    tools:context=".SubmSelectActivity">
+
+    <TextView
+        android:id="@+id/submSelectTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@color/blue"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingStart="16dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="2dp"
+        android:text="@string/subm_select_textview"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/newGame"
+        app:layout_constraintTop_toBottomOf="@+id/submSelectTextView"
+        android:layout_margin="2dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/grabber"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/landscape_cardview_height"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:id="@+id/grabberTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/grabber"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/default_text_size"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageGrabber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/img_desc"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/grabber_subm" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/jaws"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/landscape_cardview_height"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:id="@+id/jawsTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/jaws"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/default_text_size"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageJaws"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/img_desc"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/jaws_subm" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/mylady"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/landscape_cardview_height"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:id="@+id/myladyTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/mylady"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/default_text_size"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageMylady"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/img_desc"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/mylady_subm" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nanshe"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/landscape_cardview_height"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:id="@+id/nansheTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/nanshe"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/default_text_size"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageNanshe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/img_desc"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/nanshe_subm" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/naughty"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/landscape_cardview_height"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:id="@+id/naughtyTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/naughty"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/default_text_size"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageNaughty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/img_desc"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/naughty_subm" />
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/newGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textAlignment="center"
+        android:text="@string/btn_new_game"
+        android:textSize="@dimen/default_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/dimmed_white"
+        app:cornerRadius="8dp"
+        app:backgroundTint="@color/pale_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

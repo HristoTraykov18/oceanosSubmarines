@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@color/transparent_purple">
+
+    <ImageButton
+        android:id="@+id/naughtyCockpit"
+        android:layout_width="95dp"
+        android:layout_height="125dp"
+        android:background="@drawable/naughty_cockpit_level_1"
+        android:contentDescription="@string/img_desc"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center_vertical|center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/naughtyCockpit">
+
+        <ImageButton
+            android:id="@+id/naughtyPropeller"
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/naughty_propeller_level_1"
+            android:contentDescription="@string/img_desc" />
+
+        <ImageButton
+            android:id="@+id/naughtyMotor"
+            android:layout_width="85dp"
+            android:layout_height="170dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/naughty_motor_level_1"
+            android:contentDescription="@string/img_desc" />
+
+        <ImageButton
+            android:id="@+id/naughtyAquarium"
+            android:layout_width="120dp"
+            android:layout_height="155dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/naughty_aquarium_level_1"
+            android:contentDescription="@string/img_desc" />
+
+        <ImageButton
+            android:id="@+id/naughtyAirlock"
+            android:layout_width="120dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="3dp"
+            android:contentDescription="@string/img_desc"
+            android:background="@drawable/naughty_airlock_level_1" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources translatable="false">
+    <string name="error_finding_part_name_desc">Error finding part description</string>
+    <string name="img_desc">Image</string>
+    <string name="max">MAX</string>
+    <string name="min">MIN</string>
+    <string name="selected_subm_list">selected_subm_list</string>
+    <string name="subm_part_airlock">Airlock</string>
+    <string name="subm_part_aquarium">Aquarium</string>
+    <string name="subm_part_cockpit">Cockpit</string>
+    <string name="subm_part_motor">Motor</string>
+    <string name="subm_part_propeller">Propeller</string>
+    <string name="text_placeholder">TEXT_PLACEHOLDER</string>
+</resources>
