@@ -1,6 +1,8 @@
 # Oceanos Submarines
 An android application created with the idea to remove the need of the cartoon submarines in the board game Oceanos. The app doesn't replace the game itself. The idea is to reduce the physical space needed.
 
+## For info about the game rules check Rules.pdf
+
 ### TODO
 - [ ] !IMPORTANT! Replace ScrollViews with RecyclerViews for better performance
 - [ ] Submarines' parts images need rework. Initial submarine views need to be changed for each submarine
